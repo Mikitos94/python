@@ -9,4 +9,3 @@ money=(float(input('Введи сумму, которую Вы хотите по
 deposit=[money*i*0.1 for i in per_cent_list]
 print('Максимальная сумма, которую Вы можете заработать: ' + (str(max(deposit))))
 input()
-ываыва
