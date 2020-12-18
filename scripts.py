@@ -10,6 +10,6 @@ per_cent_values=per_cent.values()
 per_cent_list=list(per_cent_values)
 money=(float(input('Введи сумму, которую Вы хотите положить:')))
 print(Fore.RED)
-deposit=[money*i*0.1 for i in per_cent_list]
+deposit=[money*i*0.01 for i in per_cent_list]
 print('Максимальная сумма, которую Вы можете заработать: ' + (str(max(deposit))))
 input()
